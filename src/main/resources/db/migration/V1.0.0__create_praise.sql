@@ -1,0 +1,6 @@
+CREATE TABLE `praise` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `contents` text DEFAULT NULL,
+  `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+);
